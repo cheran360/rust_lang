@@ -5,10 +5,14 @@
 // for build in production -> "cargo build --release"
 mod print;
 mod vars;
+mod types;
+mod strings;
 
 fn main() {
     // print::run();
-    vars::run();
+    // vars::run();
+    // types::run();
+    strings::run();
 }
 
 
