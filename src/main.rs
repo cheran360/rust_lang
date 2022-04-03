@@ -3,9 +3,12 @@
 // to build and compile the code -> "cargo run"
 // for build in dev -> "cargo build" 
 // for build in production -> "cargo build --release"
+mod print;
+mod vars;
 
 fn main() {
-    println!("Hello, world!");
+    // print::run();
+    vars::run();
 }
 
 
