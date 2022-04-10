@@ -8,13 +8,15 @@ mod vars;
 mod types;
 mod strings;
 mod taking_users;
+mod inf_loop_game;
 
 fn main() {
     // print::run();
     // vars::run();
     // types::run();
     // strings::run();
-    taking_users::run();
+    // taking_users::run();
+    inf_loop_game::run();
 }
 
 
