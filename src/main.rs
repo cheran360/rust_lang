@@ -3,12 +3,15 @@
 // to build and compile the code -> "cargo run"
 // for build in dev -> "cargo build" 
 // for build in production -> "cargo build --release"
+// for running a single file use rustc filename.rs 
+
 mod print;
 mod vars;
 mod types;
 mod strings;
 mod taking_users;
 mod inf_loop_game;
+mod phils;
 
 fn main() {
     // print::run();
@@ -16,7 +19,8 @@ fn main() {
     // types::run();
     // strings::run();
     // taking_users::run();
-    inf_loop_game::run();
+    // inf_loop_game::run();
+    phils::run();
 }
 
 

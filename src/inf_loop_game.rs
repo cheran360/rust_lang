@@ -10,7 +10,8 @@ pub fn run() {
     let secret_number = rand::thread_rng().gen_range(1, 101);
 
     println!("The secret number is: {}", secret_number);
-
+    
+    // keyword for infinite loop
     loop {
         println!("Please input your guess.");
 
