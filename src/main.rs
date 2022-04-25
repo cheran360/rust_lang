@@ -12,6 +12,8 @@ mod strings;
 mod taking_users;
 mod inf_loop_game;
 mod phils;
+mod phils2;
+mod phils3;
 
 fn main() {
     // print::run();
@@ -20,7 +22,9 @@ fn main() {
     // strings::run();
     // taking_users::run();
     // inf_loop_game::run();
-    phils::run();
+    // phils::run();
+    // phils2::run();
+    phils3::run();
 }
 
 
